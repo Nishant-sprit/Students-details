@@ -18,6 +18,7 @@
     <nav class="navbar bg-light">
      <div class="container-fluid">
             <a class="navbar-brand" href="#">
+                <img src="fea.png" alt="">
                 <!-- <img src="bar-chart-line-fill.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
                 Students Count
             </a>  
@@ -110,7 +111,7 @@
             </tr>
 
             <tr>
-                <td> <button type="button" class="btn btn-danger" id="btn-16" onclick="increment16()">Roshni</button></td>
+                <td> <button type="button" class="btn btn" style="background-color: #FF69B4;" id="btn-16" onclick="increment16()">Roshni</button></td>
                 <td> <input type="text" id="val16"> </td>
             </tr>
 
@@ -138,7 +139,8 @@
     </table>
     <br>
     <div class="last">
-        <button id="downloadexcel" class="btn btn-secondary btn-outline-dark">Export</button>
+       
+        <button id="downloadexcel" class="btn btn-secondary btn-outline-dark" download="/tareek.xlsx">Export</button>
     </div>
 
     <button id="reset" class="btn btn-outline-danger" onclick="resetting()">Reset</button>
